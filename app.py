@@ -613,7 +613,7 @@ Response format:
                 time.sleep(1)
 
                 response = client.chat.completions.create(
-                    model="meta-llama/Llama-Vision-Free",
+                    model="deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.3,
                     max_tokens=500
